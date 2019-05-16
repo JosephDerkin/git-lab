@@ -122,4 +122,54 @@ new file:   README.md
 new file:   answers.md
 
 Answer 7:
+On branch master
+nothing to commit, working tree clean
 
+Answer 8:
+commit 29c76b19a45969214cd12c9401c2fc6c9c767885 (HEAD -> master)
+Author: Joseph Derkingit config --global user.email jd039218@ohio.edugit config --global user.name Joseph <josephderkin@Josephs-MacBook-Pro.local>
+Date:   Thu May 16 13:17:44 2019 -0400
+
+Initial commit
+
+commit b6bafd8cb51fe1be4cc7aaeb44494068b97c8080
+Author: Joseph Derkingit config --global user.email jd039218@ohio.edugit config --global user.name Joseph <josephderkin@Josephs-MacBook-Pro.local>
+Date:   Thu May 16 13:13:02 2019 -0400
+
+Initial commit
+
+Answer 9:
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git checkout -- <file>..." to discard changes in working directory)
+
+modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Answer 10:
+I ran the command "Head README.md" in terminal window, and no, the changes made online were not reflected in the local copy of README.md
+
+Answer 11:
+git-lab josephderkin$ git push
+
+To https://github.com/JosephDerkin/git-lab.git
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/JosephDerkin/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12:
+I ran the command "Head README.md" in terminal window, after first running the git pull command. This time, the changes made online were reflected in the local copy of README.md
+
+Answer 13:
+.        ..        .git        .gitignore    README.md
+
+Answer 14:
+Done
